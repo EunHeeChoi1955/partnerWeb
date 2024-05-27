@@ -45,40 +45,41 @@ body{box-shadow: none;}
 }
 #main #section2 .secWrap .gap .con .title {text-align: center;}
 #main .section2.addParallax .secWrap .gap .con .title2 {animation:sec2Ani1 .8s ease-in-out forwards;}
-/* #main #section2.addParallax .secWrap .gap .con .conWrap .imgBox1 {animation:sec2Ani2 1s ease-in-out forwards; }
-#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox2 {animation:sec2Ani3 1.2s ease-in-out forwards; }
-#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox3 {animation:sec2Ani4 1.4s ease-in-out forwards; }
-#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox4 {animation:sec2Ani5 1.6s ease-in-out forwards;} */
+/*애니메이션 */
+#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox1 {animation:sec2Ani2 .8s ease-in-out forwards; }
+#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox2 {animation:sec2Ani3 1s ease-in-out forwards; }
+#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox3 {animation:sec2Ani4 1.3s ease-in-out forwards; }
+#main #section2.addParallax .secWrap .gap .con .conWrap .imgBox4 {animation:sec2Ani5 1.5s ease-in-out forwards;} 
 
 
 @keyframes sec2Ani1 {
-    0% { transform:translateY(-50px);opacity:0; }
-  100% { transform:translateY(   0);opacity:1; }
+    0% { transform:translateY(-50px); opacity:0; }
+  100% { transform:translateY(   0);  opacity:1; }
 } 
 
 
 @keyframes sec2Ani2 {
-    0% { opacity:0; }
-  80% { opacity:0; }
-  100% { opacity:1; }
+    0% {transform:translateY(-30px); opacity:0; }
+  80% { transform:translateY(-30px); opacity:0; }
+  100% {transform:translateY(   0);  opacity:1; }
 }
 
 @keyframes sec2Ani3 {
-    0% { opacity:0; }
-    80% { opacity:0; }
-  100% { opacity:1; }
+    0% {transform:translateY(-30px); opacity:0; }
+   80% {transform:translateY(-30px); opacity:0; }
+  100% {transform:translateY(   0);  opacity:1; }
 }
 
 @keyframes sec2Ani4 {
-    0% { opacity:0; }
-    80% { opacity:0; }
-  100% { opacity:1; }
+    0% {transform:translateY(-30px); opacity:0; }
+   80% {transform:translateY(-30px); opacity:0; }
+  100% {transform:translateY(   0);  opacity:1; }
 }
 
 @keyframes sec2Ani5 {
-    0% {opacity:0; }
-    80% { opacity:0; }
-  100% { opacity:1; }
+    0% {transform:translateY(-30px); opacity:0; }
+   80% {transform:translateY(-30px); opacity:0; }
+  100% {transform:translateY(   0);  opacity:1; }
 }
 
 

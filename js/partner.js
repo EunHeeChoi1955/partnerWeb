@@ -1,4 +1,4 @@
-(function($,window){
+(function($){
     
 
     const Agency = {
@@ -109,4 +109,4 @@
     Agency.init();
 
 
-})(jQuery,window);
+})(jQuery);
