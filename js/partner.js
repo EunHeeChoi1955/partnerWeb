@@ -1,4 +1,4 @@
-(function($){
+(function($,window){
     
 
     const Agency = {
@@ -29,7 +29,7 @@
                   // console.log( '$(window).height() :', $('#section1 .title').offset().top - $(window).height() );
                   // 타이틀 탑값 위치를 창높이 만큼 빼주고 미리 애니메이션이 수행 되도록 계산
 
-                  const titT = $('#section1 .title').offset().top-0;                  
+                  const titT = $('#section1 .title').offset().top-10;                  
                   let winH = $(window).height();
                   let titTop = titT - winH; // 윈도우의 스크롤 탑값이 여기에 도달하면(if ~ then) 애니메이션 구현 
                   
@@ -58,7 +58,7 @@
                section2: function(){
                  
                  
-                  const titT = $('#section2 .title').offset().top;
+                  const titT = $('#section2 .title').offset().top-10;
                   let winH = $(window).height();
                   let titTop = titT - winH;
                   $(window).scroll(function(){
@@ -109,4 +109,4 @@
     Agency.init();
 
 
-})(jQuery);
+})(jQuery,window);
