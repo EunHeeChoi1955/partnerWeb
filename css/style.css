@@ -51,7 +51,7 @@ table .tr1> td { font-size: 17px; }
 table .tr2> td { font-size: 15px; }
 table .tr1> td .num { font-size: 15px; display: inline-block; background: #000; color: #fff;border-radius: 50%;padding: 0 5px; text-align: center; width:20px; height: 20px; }
 table .tr1> td, .tr2> td  { background: #F8F8F8;color:#000; font-weight: 700;   }
-table tr td {padding:12px 0;  font-size: 15px; color:#000; border: 1px solid #C4C4C4;color:#636363 ; line-height: 120%; }
+table tr td {padding:12px 0;  font-size: 15px; color:#000; border: 1px solid #C4C4C4;color:#636363 ; line-height: 120%; letter-spacing: -.2px;}
 table tr .bold {font-weight: 700; color: #4E4E4E; background:#F8F8F8 ; width: 8%; }
 
 
