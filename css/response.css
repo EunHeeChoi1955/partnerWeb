@@ -26,9 +26,7 @@
     /* sec2 img*/
     #main #section2 .secWrap .gap .con .conWrap { width: 100%; display: inline-block; text-align: center; } 
 
-    /*애니메이션 */
-    #main #section2.addParallax .secWrap .gap .con .conWrap .imgBox3 {animation:sec2Ani4 1.5s ease-in-out forwards;}
-    #main #section2.addParallax .secWrap .gap .con .conWrap .imgBox4 {animation:sec2Ani5 1.7s ease-in-out forwards;} 
+
 }
 @media all and (max-width:680px){
     /* 상단 타이틀 */
