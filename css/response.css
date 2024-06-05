@@ -21,13 +21,14 @@
 }
 @media all and (max-width:989px){
 
-
+       
         /* felx 풀어주기 */
         #main .section .secWrap .gap .con .contentsWrap { width: 100%; display: inline-block; text-align: center; } 
         #main .section .secWrap .gap .con .contentsWrap .conL {width: 100%; padding:0 20px; }
         #main .section .secWrap .gap .con .contentsWrap .conR {width: 100%; padding-top: 50px; }
 
-  
+        table {max-width: 100%; }
+        #main .section .secWrap .gap .con .contentsWrap .conR .conWrap {max-width: 100%;}
 
 
 }
