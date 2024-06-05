@@ -6,7 +6,9 @@
 @media all and (max-width:1020px){
 
 
-
+    #main .section .secWrap .gap {  padding:40px 80px;} 
+    #main #section1 .secWrap .gap {  padding:100px 80px 40px 80px;} /* 섹션1 패딩*/
+    table tr td { font-size: 15px; padding: 10px;}
 
 }
 @media all and (max-width:1000px){
@@ -18,6 +20,12 @@
 
 }
 @media all and (max-width:989px){
+
+
+        /* felx 풀어주기 */
+        #main .section .secWrap .gap .con .contentsWrap { width: 100%; display: inline-block; text-align: center; } 
+        #main .section .secWrap .gap .con .contentsWrap .conL {width: 100%; padding:0 20px; }
+        #main .section .secWrap .gap .con .contentsWrap .conR {width: 100%; padding-top: 50px; }
 
   
 
@@ -39,22 +47,16 @@
     /* title */
     #main .section .secWrap .gap .con .titleCon h2 {   font-size:35px; } 
     #main .section .secWrap .gap .con .titleCon h2 .colorBox {padding: 0 5px; }
-    /* felx 풀어주기 */
-    #main .section .secWrap .gap .con .contentsWrap { width: 100%; display: inline-block; text-align: center; } 
-    #main .section .secWrap .gap .con .contentsWrap .conL {width: 100%; padding:0 20px; }
-    #main .section .secWrap .gap .con .contentsWrap .conR {width: 100%; padding-top: 50px; }
+
 
 
     /*  테이블 */
     table { margin-top:25px; height:100%; }   
+
+       
     table .tr2> td { font-size: 16px;}
     table tr td { font-size: 15px; padding: 10px;}
     table tr .bold {font-size: 15px;}
-
-
-
-       
-
 
 
 
