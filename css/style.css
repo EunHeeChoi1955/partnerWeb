@@ -47,7 +47,7 @@
   100% { transform:translateY(   0);opacity:1; }
 }
 
-#main .section .secWrap .gap .con .contentsWrap { display: flex; width:100%;}
+#main .section .secWrap .gap .con .contentsWrap { display: flex; width:100%;padding-left: 50px;}
 #main .section .secWrap .gap .con .contentsWrap .conL {width:40%; }
 #main .section .secWrap .gap .con .contentsWrap .conR {width:60%; }
 
@@ -92,7 +92,7 @@
 
 
 /*  테이블 */
-#main .section .secWrap .gap .con .contentsWrap .conL .tableCon {  height: 100%; text-align: center; width:100%;}
+
 
 table { margin-top:50px; margin: 55px 0 auto auto ; width: 100%; max-width: 553px; height:86%; border-top: 3.5px solid #E7342C; border-bottom: 3.5px solid #E7342C; border-right: 1px solid #C4C4C4;border-left: 1px solid #C4C4C4; text-align: center; border-collapse: collapse;}
 table tr {width: 100%;  }
