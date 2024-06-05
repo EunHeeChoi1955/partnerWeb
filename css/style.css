@@ -59,35 +59,35 @@
 #main .section1.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec1Ani2 .8s ease-in-out forwards;}
 
 @keyframes sec1Ani2 {
-  0% { transform:translateY(-30px);opacity:0; }
-100% { transform:translateY(   0);opacity:1; }
+  0% { transform:translateX(50px);opacity:0; }
+100% { transform:translateX(   0);opacity:1; }
 }
 
 /* 섹션2 패럴럭스 애니메이션 addParallax 폰 */
 #main .section2.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec2Ani2 .8s ease-in-out forwards;}
 
 @keyframes sec2Ani2 {
-  0% { transform:translateY(-30px);opacity:0; }
- 30% { transform:translateY(-30px);opacity:0; }
-100% { transform:translateY(   0);opacity:1; }
+  0% { transform:translateX(50px);opacity:0; }
+ 30% { transform:translateX(50px);opacity:0; }
+100% { transform:translateX(   0);opacity:1; }
 }
 
 /* 섹션3 패럴럭스 애니메이션 addParallax 폰 */
 #main .section3.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec3Ani2 .8s ease-in-out forwards;}
 
 @keyframes sec3Ani2 {
-  0% { transform:translateY(-30px);opacity:0; }
- 30% { transform:translateY(-30px);opacity:0; }
-100% { transform:translateY(   0);opacity:1; }
+  0% { transform:translateX(50px);opacity:0; }
+ 30% { transform:translateX(50px);opacity:0; }
+100% { transform:translateX(   0);opacity:1; }
 }
 
 /* 섹션4 패럴럭스 애니메이션 addParallax 폰 */
 #main .section4.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec4Ani2 .8s ease-in-out forwards;}
 
 @keyframes sec4Ani2 {
-  0% { transform:translateY(-30px);opacity:0; }
- 30% { transform:translateY(-30px);opacity:0; }
-100% { transform:translateY(   0);opacity:1; }
+  0% { transform:translateX(50px);opacity:0; }
+ 30% { transform:translateX(50px);opacity:0; }
+100% { transform:translateX(   0);opacity:1; }
 }
 
 
