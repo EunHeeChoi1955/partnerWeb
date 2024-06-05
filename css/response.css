@@ -28,11 +28,12 @@
         #main .section .secWrap .gap .con .contentsWrap .conR {width: 100%; padding-top: 50px; }
 
         table {max-width: 100%; }
-        #main .section .secWrap .gap .con .contentsWrap .conR .conWrap {max-width: 100%;}
-
+        #main .section .secWrap .gap .con .contentsWrap .conR .conWrap { width: 100%; margin: 0 auto; text-align: center;} 
+        
+        
         /* 섹션1 패럴럭스 애니메이션 addParallax 폰 */
         #main .section1.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec1Ani2 .8s ease-in-out forwards;}
-
+       
         @keyframes sec1Ani2 {
           0% { transform:translateY(-30px);opacity:0; }
         100% { transform:translateY(    0);opacity:1; }
