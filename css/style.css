@@ -27,7 +27,7 @@
 
 
 /* 탑버튼 우측 하단 따라다니는거 */
-#main .section .secWrap .gap .con .top-btn{ z-index:10; position:fixed; bottom:0; right:0; margin-right: 20px; margin-bottom: 30px;display:block;width:44px;height:auto; opacity:1;}
+#main .section .secWrap .gap .con .top-btn{ z-index:10; position:fixed; bottom:0; right:0; margin-right: 30px; margin-bottom: 40px;display:block;width:44px;height:auto; opacity:1;}
 /* transform: translateX(880%); -webkit-transform: translateX(880%);  transition:all 1s;*/
 #main .section .secWrap .gap .con .top-btn>a>img{width:100%; border-radius: 22px; }
 
