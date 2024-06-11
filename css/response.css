@@ -43,8 +43,7 @@
         #main .section2.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec2Ani2 .8s ease-in-out forwards;}
 
         @keyframes sec2Ani2 {
-          0% { transform:translateY(-30px);opacity:0; }
-         
+          0% { transform:translateY(-30px);opacity:0; }         
         100% { transform:translateY(    0);opacity:1; }
         }
 
@@ -52,8 +51,7 @@
         #main .section3.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec3Ani2 .8s ease-in-out forwards;}
 
         @keyframes sec3Ani2 {
-          0% { transform:translateY(-30px);opacity:0; }
-      
+          0% { transform:translateY(-30px);opacity:0; }      
         100% { transform:translateY(    0);opacity:1; }
         }
 
@@ -61,8 +59,7 @@
         #main .section4.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec4Ani2 .8s ease-in-out forwards;}
 
         @keyframes sec4Ani2 {
-          0% { transform:translateY(-30px);opacity:0; }
-       
+          0% { transform:translateY(-30px);opacity:0; }       
         100% { transform:translateY(    0);opacity:1; }
         }
 
@@ -71,8 +68,7 @@
 
         @keyframes sec5Ani2 {
           0% { transform:translateY(-30px);opacity:0; }
-
-        100% { transform:translateY(   0);opacity:1; }
+        100% { transform:translateY(    0);opacity:1; }
         }
 
 
@@ -134,11 +130,10 @@
 }
 @media all and (max-width:400px){
     #main #section1 .secWrap .gap { width: 100%; padding:60px 0 30px 0;} /* 섹션1 패딩*/
-       /* title */
-       #main .section .secWrap .gap .con .titleCon h2 {   font-size:25px; } 
-   
-       #main .section .secWrap .gap .con .titleCon .subTit {  font-size: 18px;}
-       #main .section .secWrap .gap .con .titleCon .subTit .tNum{ font-size: 11px; margin-bottom: 3px;  padding: 2px 0;  width:15px; height: 15px; }
+    /* title */
+    #main .section .secWrap .gap .con .titleCon h2 {   font-size:25px; } 
+    #main .section .secWrap .gap .con .titleCon .subTit {  font-size: 18px;}
+    #main .section .secWrap .gap .con .titleCon .subTit .tNum{ font-size: 11px; margin-bottom: 3px;  padding: 2px 0;  width:15px; height: 15px; }
 
 
      /*  테이블 */
