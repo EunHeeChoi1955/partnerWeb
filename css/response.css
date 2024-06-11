@@ -66,6 +66,14 @@
         100% { transform:translateY(    0);opacity:1; }
         }
 
+        /* 섹션5 패럴럭스 애니메이션 addParallax 폰 */
+        #main .section5.addParallax .secWrap .gap .con .contentsWrap .conR {animation:sec5Ani2 .8s ease-in-out forwards;}
+
+        @keyframes sec5Ani2 {
+          0% { transform:translateY(-30px);opacity:0; }
+
+        100% { transform:translateY(   0);opacity:1; }
+        }
 
 
 }
