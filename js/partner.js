@@ -19,6 +19,7 @@
                   this.section2();
                   this.section3();
                   this.section4();
+                  this.section5();
                  
                },
               
@@ -103,6 +104,28 @@
                      }
                      if( $(window).scrollTop() == 0 ){ 
                         $('#section4').removeClass('addParallax'); 
+
+                     }
+
+
+
+                  }); 
+
+               },
+               section5: function(){
+                 
+                 
+                  const titT = $('#section5').offset().top-10;
+                  let winH = $(window).height();
+                  let titTop = titT - winH;
+                  $(window).scroll(function(){
+                   // console.log('$(window).scrollTop():',$(window).scrollTop());
+                     if( $(window).scrollTop() >= titTop ){ 
+                        $('#section5').addClass('addParallax');
+
+                     }
+                     if( $(window).scrollTop() == 0 ){ 
+                        $('#section5').removeClass('addParallax'); 
 
                      }
 
